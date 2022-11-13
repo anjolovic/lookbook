@@ -42,6 +42,7 @@
     "@alpinejs/collapse": "^3.10.5",
     "@alpinejs/morph": "^3.10.5",
     "@alpinejs/persist": "^3.10.5",
+    "@hotwired/turbo": "^7.2.4",
     "@parcel/resolver-glob": "^2.4.0",
     "@rails/actioncable": "^6.1.4",
     "@ryangjchandler/alpine-tooltip": "^1.2.0",
@@ -50,14 +51,17 @@
     "alpinejs": "^3.10.5",
     "autoprefixer": "^10.4.13",
     "command-line-args": "^5.2.1",
+    "esbuild": "^0.15.13",
     "iframe-resizer": "^4.3.2",
     "js-cookie": "^3.0.1",
     "loglevel": "^1.8.0",
     "loglevel-plugin-prefix": "^0.8.4",
     "parcel": "^2.7.0",
     "postcss": "^8.4.18",
+    "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^15.0.0",
     "postcss-import-ext-glob": "^2.0.1",
+    "postcss-preset-env": "^7.8.2",
     "split-grid": "^1.0.11",
     "tailwindcss": "^3.2.2",
     "throttle-debounce": "^5.0.0",
@@ -75,7 +79,7 @@
     "lint-staged": "^13.0.3",
     "prettier": "2.7.1",
     "release-it": "^15.5.0",
-    "watch": "^1.0.2"
+    "watch": "^0.13.0"
   },
   "lint-staged": {
     "**/*": [
